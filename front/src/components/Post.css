@@ -1,0 +1,62 @@
+html {
+	height: 90% !important;
+}
+.Card {
+	margin: 1% 2%;
+	padding: 2% 2%;
+}
+.commentCard {
+	margin: 1% 2%;
+}
+.post_div {
+	justify-content: center;
+}
+.post__images {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.post__images img {
+	max-height: 400px;
+	max-width: 100%;
+}
+.post__header {
+	margin-top: 1em;
+}
+.addCircleIcon {
+	margin-left: 0.5em;
+	font-size: 1.3em !important;
+}
+.loading_Div {
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ff5c85;
+	background-color: #fff;
+	height: 100%;
+	min-height: 90vh;
+	font-size: 1.5em;
+}
+
+.loading_Div video {
+	max-width: 80%;
+	margin: 2em;
+}
+.post_dspt {
+	color: #696551de;
+	margin-top: 2px;
+}
+.post__head {
+	font-size: 2.3em;
+	font-weight: 600;
+	color: rgb(51, 50, 50);
+}
+.makeStyles-copyUrl-7 {
+	color: white;
+	font-size: 1rem;
+	max-width: calc(100% - 55px);
+	line-height: 24px;
+	white-space: nowrap;
+	overflow: hidden !important;
+}

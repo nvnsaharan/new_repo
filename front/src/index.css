@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Montserrat';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: 'Montserrat';
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+}

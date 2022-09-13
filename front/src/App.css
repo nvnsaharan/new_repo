@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.app {
+	background-color: #f3f3f3;
+	min-height: 100vh;
+	height: 100%;
+	font-size: 10px;
+}
+
+.app__login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	background-color: white;
+	border: 1px solid lightgray;
+}
+
+.app__loginHome {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: white;
+}
+.app__loginHome a {
+	margin: 0px !important;
+}
+.app__upload {
+	bottom: 0;
+	background-color: white;
+	border: 1px solid lightgray;
+	text-align: center;
+	padding: 15px 10px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+
+.app__headerImage {
+	object-fit: contain;
+	max-height: 30px;
+}
+
+.app__headerRight {
+	display: flex;
+	align-items: center;
+}
+
+.app__headerRight > p {
+	margin-right: 5px;
+}
+
+.app__headerAvatar {
+	height: 24px !important;
+	width: 24px !important;
+}
+
+.app__header {
+	height: 42px !important;
+	position: sticky;
+
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+	padding: 5px 5%;
+	background-color: #ffffff;
+	border-bottom: 1px solid lightgray;
+}
+
+.app__posts {
+	padding: 10px 0px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.app__postsRight {
+	margin-left: 10px;
+}
+.control_btn {
+	color: white !important;
+	background-color: #32383f !important;
+	font-weight: 600 !important;
+	padding: 0.5em 2em !important;
+	margin: 0 2em !important;
+}
+.link_option {
+	text-decoration: none;
+	justify-content: center;
+	text-align: center;
+}
+.company_logo {
+	background-color: #32383f !important;
+	padding: 0.4em 0.8em;
+	border-radius: 30px;
+	color: white;
+}
+
+@media screen and (max-width: 600px) {
+	.user_chip {
+		display: none !important;
+	}
+	.app {
+		font-size: 8px;
+	}
+}

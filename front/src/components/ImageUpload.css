@@ -1,0 +1,53 @@
+.imageupload {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 1em;
+}
+
+.imageupload__progress {
+	width: 100%;
+	height: 6px;
+	color: #ff5105;
+}
+
+.upload_div {
+	width: 100%;
+}
+
+/* input[type='file'] {
+	/* display: none; */
+
+.control_btns {
+	margin-top: 1em;
+}
+.control_btns > button {
+	float: right;
+	margin-left: 3em;
+	color: white !important;
+	background-color: #32383f !important;
+	font-weight: 600 !important;
+	padding: 0.5em 2em !important;
+}
+.control_post_btn {
+	color: white !important;
+	background-color: #32383f !important;
+	font-weight: 600 !important;
+	padding: 0.5em 2em !important;
+	float: left !important;
+	margin-left: 0 !important;
+}
+.control_post_btn_div {
+	width: 90%;
+}
+.control_post_btn_icon {
+	font-size: 20px !important;
+	margin-left: 5px;
+}
+.control_btn_image {
+	float: right;
+	color: white !important;
+	background-color: #32383f !important;
+	font-weight: 600 !important;
+	padding: 0.5em 2em !important;
+}
