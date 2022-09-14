@@ -1,4 +1,7 @@
-# Step to run the app
+# **Trendd is an app just like discord but for students to discuss topics or events happening in there college.**
+
+
+## **Step to run the app**
 
 ## 1. Run server
         - cd server
